@@ -64,6 +64,11 @@ carrito = []
 # Pedir al usuario que seleccione una acción
 while True:
     password='estoesunpasswordinseguro12345'
+    eval('2 + 5')           # returns 7
+    exec('print("Hello")')  # prints "Hello", no return
+    eval("2 ** 2147483647", { "__builtins__": None }, {})  # goodbye!
+    pickle.loads()
+    subprocess.call()
     print(password)
     print('¿Qué desea hacer?')
     print('1. Ver laptops disponibles')
