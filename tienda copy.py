@@ -13,7 +13,7 @@ laptops = [
 ]
 assert subprocess.call(['run-backup']) == 0
  password = request.args.get("password")
- 
+
 # Función para mostrar las laptops disponibles
 def mostrar_laptops():
     print('Laptops disponibles:')
@@ -63,6 +63,8 @@ carrito = []
 
 # Pedir al usuario que seleccione una acción
 while True:
+    password='estoesunpasswordinseguro12345'
+    print(password)
     print('¿Qué desea hacer?')
     print('1. Ver laptops disponibles')
     print('2. Añadir laptop al carrito')
